@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+
+    &__logo {
+
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+
+        &__item {
+
+        }
+    }
+}
