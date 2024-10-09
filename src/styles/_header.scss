@@ -1,16 +1,42 @@
 .header {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
     &__logo {
-
+        padding: 10px;
+        margin-left: 24px;
+        
+        img {
+            max-height: 40px;
+            display: block;
+        }
     }
 
     &__nav {
         display: flex;
-        justify-content: space-between;
+        gap: 20px;
 
         &__item {
+            padding: 10px 20px;
+            text-wrap: nowrap;
+            cursor: pointer;
+        }
+    }
 
+    &__form {
+        margin-right: 24px;
+        height: 40px;
+        display: inline-flex;
+
+        &__input {
+            height: 40px;
+            width: 290px;
+        }
+
+        &__btn {
+            height: 40px;
+            width: 48px;
         }
     }
 }

@@ -1,5 +1,6 @@
 @use 'variaveis';
 @use 'header';
+@use 'banner';
 @use 'footer';
 
 // font import
@@ -24,6 +25,12 @@
     list-style: none;
 }
 
+body {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 
 // text
 @mixin text($fontSize: 1em) {
@@ -38,8 +45,12 @@
 .text {
     @include text();
 }
+.text--bold {
+    @include text();
+    font-weight: 700;
+}
 .text--nav {
-    @include text(14px);
+    @include text(17px);
     font-weight: 700;
     color: variaveis.$navTextColor;
     text-transform: uppercase;
