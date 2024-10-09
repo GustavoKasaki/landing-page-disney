@@ -1,0 +1,29 @@
+.footer {
+    
+    &__links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &__logo {
+            padding: 10px;
+            margin-left: 24px;
+            
+            img {
+                max-height: 40px;
+                display: block;
+            }
+        }
+
+        &__nav {
+            display: flex;
+            gap: 20px;
+
+            &__item {
+                padding: 10px 20px;
+                text-wrap: nowrap;
+                cursor: pointer;
+            }
+        }
+    }
+}

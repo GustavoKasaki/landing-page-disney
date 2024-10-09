@@ -1,0 +1,34 @@
+@use 'variaveis';
+
+.info {
+    background-color: variaveis.$bgColor;
+    display: flex;
+    align-items: center;
+    padding: 40px 104px;
+
+    &__poster {
+        width: 40%;
+        margin: 20px 53px 20px 0;
+    }
+
+    &__about {
+        width: 60%;
+
+        &__title {
+            padding: 20px 0;
+        }
+
+        &__summary {
+            margin-bottom: 24px;
+        }
+
+        &__text {
+            .text--big {
+                padding-bottom: 8px;
+            }
+            .text {
+                padding-bottom: 24px;
+            }
+        }
+    }
+}
