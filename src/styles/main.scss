@@ -46,6 +46,10 @@ body {
 .text {
     @include text();
 }
+.text--small{
+    @include text(12px);
+    color: variaveis.$navTextColor;
+}
 .text--bold {
     @include text();
     font-weight: 700;

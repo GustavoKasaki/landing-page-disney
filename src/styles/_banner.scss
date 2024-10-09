@@ -3,6 +3,8 @@
     height: 668px;
 
     &__bg {
+        transition: .5s ease;
+
         img {
             width: 100%;
         }

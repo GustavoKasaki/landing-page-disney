@@ -1,12 +1,14 @@
 .footer {
-    
+    padding: 32px 0;
+
     &__links {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        margin-bottom: 24px;
 
         &__logo {
-            padding: 10px;
+            padding: 10px 30px;
             margin-left: 24px;
             
             img {
@@ -17,7 +19,34 @@
 
         &__nav {
             display: flex;
-            gap: 20px;
+
+            &__item {
+                padding: 10px 20px;
+                text-wrap: nowrap;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__help {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &__logo {
+            padding: 10px 30px;
+            margin-left: 24px;
+            
+            img {
+                max-height: 40px;
+                display: block;
+            }
+        }
+
+        &__nav {
+            display: flex;
+            padding-bottom: 26px;
 
             &__item {
                 padding: 10px 20px;
