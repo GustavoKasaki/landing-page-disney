@@ -3,37 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deadpool & Wolverine - Disney+</title>
+    <title>Deadpool & Wolverine - Disney</title>
+    <link rel="icon" type="image/x-icon" href="./dist/images/favicon.ico">
     <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css">
+
 </head>
 <body>
     <header class="header">
         <a href="#" class="header__logo">
             <img src="./dist/images/disney_logo.png" alt="Logo Disney">
         </a>
-        <ul class="header__nav">
-            <li class="header__nav__item text--nav">
-                Disney+
-            </li>
-            <li class="header__nav__item text--nav">
-                Filmes
-            </li>
-            <li class="header__nav__item text--nav">
-                Rádio Disney
-            </li>
-            <li class="header__nav__item text--nav">
-                Aniversário Mágico
-            </li>
-            <li class="header__nav__item text--nav">
-                Espetáculos
-            </li>
-            <li class="header__nav__item text--nav">
-                D23 Brasil
-            </li>
-        </ul>
+        <nav class="header__nav">
+            <button data-nav-button class="header__nav__dropmenu">
+                <i class="fa fa-bars"></i>
+            </button>
+            <ul data-nav-list class="header__nav__list">
+                <li class="header__nav__list__item text--nav">
+                    Disney+
+                </li>
+                <li class="header__nav__list__item text--nav">
+                    Filmes
+                </li>
+                <li class="header__nav__list__item text--nav">
+                    Rádio Disney
+                </li>
+                <li class="header__nav__list__item text--nav">
+                    Aniversário Mágico
+                </li>
+                <li class="header__nav__list__item text--nav">
+                    Espetáculos
+                </li>
+                <li class="header__nav__list__item text--nav">
+                    D23 Brasil
+                </li>
+            </ul>
+        </nav>
         <form class="header__form">
-            <input class="header__form__input" type="text" placeholder="Busca">
-            <button class="header__form__btn" type="submit">
+            <input data-form-input class="header__form__input" type="text" placeholder="Busca">
+            <button data-form-btn class="header__form__btn" type="submit">
                 <img src="https://static-mh.content.disney.io/matterhorn/assets/goc/inc-search-input-icon-blue-331475a2cf98.svg" alt="Search icon">
             </button>
         </form>

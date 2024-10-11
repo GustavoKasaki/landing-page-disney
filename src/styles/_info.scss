@@ -31,4 +31,23 @@
             }
         }
     }
+
+    @media (max-width: 640px) {
+        display: block;
+        padding: 21px;
+        text-align: center;
+
+        &__poster {
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        &__about {
+            width: 100%;
+        }
+
+        ul {
+            text-align: left;
+        }
+    }
 }

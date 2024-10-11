@@ -2,6 +2,14 @@
     overflow: hidden;
     height: 668px;
 
+    @media (min-width: 641px) and (max-width: 810px) {
+        height: 320px;
+    }
+
+    @media (max-width: 640px) {
+        height: auto;
+    }
+
     &__bg {
         transition: .5s ease;
 
@@ -13,7 +21,26 @@
             transform: scale(1.1);
             transition: .5s ease;
         }
+
+        @media (max-width: 640px) {
+            height: 300px;
+            transform: none;
+            transition: none;
+            
+                img {
+                    height: 300px;
+                    width: 100%;
+                    object-fit: cover;
+                }
+    
+                &:hover {
+                    transform: none;
+                    transition: none;
+                }
+        }
     }
+
+
 
 
     &__overlay {
@@ -41,5 +68,13 @@
             cursor: pointer;
         }
 
+        @media (max-width: 640px) {
+            position: static;
+            width: 100%;
+            padding: 20px 25px 50px 25px;
+            background-color: #000;
+        }
+
     }
+
 }
