@@ -1,32 +1,32 @@
-# **Landing Page para o filme "Deadpool & Wolverine"**
+# **Landing Page for the movie "Deadpool & Wolverine"**
 
-### **Descrição**  
-Este projeto é uma landing page inspirada na original da Disney, desenvolvida para praticar habilidades de front-end e reproduzir um design moderno e responsivo. A aplicação foca na apresentação visual e na experiência do usuário, simulando a interface do serviço original.  
+### **Description**  
+This project is a landing page inspired by Disney's original, developed to practice front-end skills and reproduce a modern and responsive design. The application focuses on visual presentation and user experience, simulating the interface of the original service.  
 
-### **Funcionalidades Principais**
-- Design visual inspirado na landing page do filme "Deadpool & Wolverine" no site da Disney.
-- Layout responsivo, adaptado para diferentes dispositivos (desktop, mobile e tablet).
-- Estrutura organizada para facilitar futuras expansões ou integrações.
+### **Main Features**
+- Visual design inspired by the "Deadpool & Wolverine" movie landing page on Disney's website.  
+- Responsive layout, adapted for different devices (desktop, mobile, and tablet).  
+- Organized structure to facilitate future expansions or integrations.  
 
-### **Tecnologias Utilizadas**
+### **Technologies Used**
 **Frontend:**
-- **HTML5**: Para a estrutura da página.
-- **CSS3**: Para estilização, incluindo uso de flexbox e grid.
-- **SASS**: Pré-processador utilizado para um código CSS mais limpo.
-- **GULP**: Ferramenta de automação para compilar, comprimir e concatenar imagens e arquivos CSS e JS.
-- **JavaScript**: Para adicionar interatividade.
+- **HTML5**: For the page structure.  
+- **CSS3**: For styling, including flexbox and grid usage.  
+- **SASS**: Preprocessor used for cleaner CSS code.  
+- **GULP**: Automation tool for compiling, compressing, and concatenating images and CSS/JS files.  
+- **JavaScript**: To add interactivity.  
 
-### **Demonstração do projeto**
-\- **Build online**: https://deadpool-wolverine-landing-page.vercel.app/
+### **Project Demonstration**
+\- **Online Build**: https://deadpool-wolverine-landing-page.vercel.app/  
 
-\- **Execução local**:
-1. Certifique-se de que seu dispositivo possui o git instalado.
-2. Clone este repositório:  
+\- **Local Execution**:  
+1. Make sure your device has git installed.  
+2. Clone this repository:
    ```bash
    git clone https://github.com/GustavoKasaki/landing-page-disney.git
    ```
-3. Acesse o diretório do projeto:  
+4. Access the project directory:  
    ```bash
    cd landing-page-disney
    ```
-4. Abra o arquivo `index.html` em seu navegador para visualizar a página.
+5. Open the `index.html` file in your browser to view the page.
